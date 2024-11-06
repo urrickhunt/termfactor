@@ -13,7 +13,7 @@ test your terminal features & find out.
 termfactor tests your terminal for: 
 
 - [truecolor](https://github.com/termstandard/colors)
-- sgr or text decorations
+- [sgr or text decorations](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters)
 - unicode
 - emojis
 - bidi awareness
