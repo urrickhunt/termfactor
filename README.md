@@ -10,19 +10,21 @@ test your terminal features & find out.
 
 ### Tests
 
-termfactor tests your terminal for 
+termfactor tests your terminal for: 
 
 - `truecolor`
 - `sgr or text decorations`
 - `unicode`
 - `emojis`
 - `bidi awareness`
-- `osc 8 hyperlinks`
+- `[osc 8 hyperlinks](https://github.com/Alhadis/OSC8-Adoption/)`
 - `osc 9 notifications`
 - `osc 777 notifications`
 - `sixel graphics`
 
 please note that this is just a general test for bidirectional awareness & not a comprehensive bidi language test.
+
+further bidi terminal resources:
 
 [BiDiSupport](https://gist.github.com/XVilka/a0e49e1c65370ba11c17)
 
