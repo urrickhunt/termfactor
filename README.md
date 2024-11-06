@@ -1,2 +1,7 @@
 # termfactor
 is your terminal sick, mid or sus?
+test your terminal features & find out.
+
+<img width="705" alt="wez" src="https://github.com/user-attachments/assets/e3a5619f-b66e-4726-89ee-6eab22f7954a">
+
+
