@@ -30,7 +30,7 @@ termfactor tests your terminal for:
 - [sgr or text decorations](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters)
 - [unicode symbols](https://en.wikipedia.org/wiki/Unicode_symbol)
 - [emojis](https://en.wikipedia.org/wiki/Emoji)
-- bidi awareness
+- [bidi awareness](https://www.lingnu.com/programming/57-bidi-aware-programming-introduction.html)
 - [osc 8 hyperlinks](https://github.com/Alhadis/OSC8-Adoption/)
 - [osc 9 notifications](https://chromium.googlesource.com/apps/libapps/+/a5fb83c190aa9d74f4a9bca233dac6be2664e9e9/hterm/doc/ControlSequences.md#OSC)
 - [osc 777 notifications](https://chromium.googlesource.com/apps/libapps/+/a5fb83c190aa9d74f4a9bca233dac6be2664e9e9/hterm/doc/ControlSequences.md#OSC)
