@@ -30,6 +30,19 @@ further bidi terminal resources:
 
 - [BiDi in Terminal Emulators](https://terminal-wg.pages.freedesktop.org/bidi/)
 
+### Installation
+
+`cargo install termfactor`
+
+### Building
+
+`git clone https://github.com/urrickhunt/termfactor`
+
+`cargo build --release`
+
+`cargo install --path .`
+
+
 ### Track termfactors
 
 ![term](https://github.com/user-attachments/assets/804f0213-4659-43d0-84c4-1e6d5938c779)
