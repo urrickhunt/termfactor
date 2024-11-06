@@ -37,7 +37,6 @@ termfactor tests your terminal for:
 - [sixel graphics](https://www.arewesixelyet.com/)
 
 please note that this is just a general test for bidirectional awareness & not a comprehensive bidi language test.
-
 further bidi terminal resources:
 
 - [BiDiSupport](https://gist.github.com/XVilka/a0e49e1c65370ba11c17)
