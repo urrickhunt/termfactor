@@ -29,11 +29,11 @@ termfactor tests your terminal for:
 - [truecolor](https://github.com/termstandard/colors)
 - [sgr or text decorations](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters)
 - [unicode symbols](https://en.wikipedia.org/wiki/Unicode_symbol)
-- emojis
+- [emojis](https://en.wikipedia.org/wiki/Emoji)
 - bidi awareness
 - [osc 8 hyperlinks](https://github.com/Alhadis/OSC8-Adoption/)
-- osc 9 notifications
-- osc 777 notifications
+- [osc 9 notifications](https://chromium.googlesource.com/apps/libapps/+/a5fb83c190aa9d74f4a9bca233dac6be2664e9e9/hterm/doc/ControlSequences.md#OSC)
+- [osc 777 notifications](https://chromium.googlesource.com/apps/libapps/+/a5fb83c190aa9d74f4a9bca233dac6be2664e9e9/hterm/doc/ControlSequences.md#OSC)
 - [sixel graphics](https://www.arewesixelyet.com/)
 
 please note that this is just a general test for bidirectional awareness & not a comprehensive bidi language test.
