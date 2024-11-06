@@ -12,7 +12,7 @@ test your terminal features & find out.
 
 termfactor tests your terminal for: 
 
-- truecolor
+- [truecolor](https://github.com/termstandard/colors)
 - sgr or text decorations
 - unicode
 - emojis
