@@ -2,7 +2,7 @@
 is your terminal sick, mid or sus?
 test your terminal features & find out.
 
-<img width="705" alt="wez" src="https://github.com/user-attachments/assets/e3a5619f-b66e-4726-89ee-6eab22f7954a">
+<img width="859" alt="wez2" src="https://github.com/user-attachments/assets/1f230930-94cf-4aee-805a-3a6c640b0ac2">
 
 ### Requirements
 
