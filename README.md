@@ -20,7 +20,7 @@ termfactor tests your terminal for:
 - [osc 8 hyperlinks](https://github.com/Alhadis/OSC8-Adoption/)
 - osc 9 notifications
 - osc 777 notifications
-- sixel graphics
+- [sixel graphics](https://www.arewesixelyet.com/)
 
 please note that this is just a general test for bidirectional awareness & not a comprehensive bidi language test.
 
