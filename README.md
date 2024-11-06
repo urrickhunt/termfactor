@@ -44,3 +44,4 @@ further bidi terminal resources: - [BiDiSupport](https://gist.github.com/XVilka/
 <img width="930" alt="terms3" src="https://github.com/user-attachments/assets/c826255a-32af-4c98-a8b9-d9ddb5cf4178">
 
 
+
