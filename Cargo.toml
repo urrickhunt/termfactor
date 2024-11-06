@@ -6,7 +6,7 @@ authors = ["urrick hunt"]
 description = "is your terminal sick, mid or sus? test your terminal features & find out."
 license = "MIT"
 repository = "https://github.com/urrickhunt/termfactor"
-keywords = ["truecolor", "sgr", "unicode", "emoji", "bidi", "hyperlinks", "notifications", "sixel", "terminal"]
+keywords = ["truecolor", "sgr", "bidi", "hyperlinks", "sixel"]
 
 [[bin]]
 name = "termfactor"
