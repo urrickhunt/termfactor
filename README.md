@@ -8,7 +8,7 @@ test your terminal features & find out.
 
 [fastfetch](https://github.com/fastfetch-cli/fastfetch) must be installed. termfactor uses [fastfetch](https://github.com/fastfetch-cli/fastfetch) for terminal identification.
 
-+ https://github.com/fastfetch-cli/fastfetch
+- https://github.com/fastfetch-cli/fastfetch
 
 ### Installation
 
