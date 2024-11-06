@@ -1,5 +1,5 @@
 # termfactor
-is your terminal sick, mid or sus?
+is your terminal sick, mid or sus? 🦀
 test your terminal features & find out.
 
 <img width="859" alt="wez2" src="https://github.com/user-attachments/assets/1f230930-94cf-4aee-805a-3a6c640b0ac2">
