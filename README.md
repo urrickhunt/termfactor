@@ -10,6 +10,18 @@ test your terminal features & find out.
 
 - https://github.com/fastfetch-cli/fastfetch
 
+### Installation
+
+`cargo install termfactor`
+
+### Building
+
+`git clone https://github.com/urrickhunt/termfactor`
+
+`cargo build --release`
+
+`cargo install --path .`
+
 ### Tests
 
 termfactor tests your terminal for: 
@@ -31,19 +43,6 @@ further bidi terminal resources:
 - [BiDiSupport](https://gist.github.com/XVilka/a0e49e1c65370ba11c17)
 
 - [BiDi in Terminal Emulators](https://terminal-wg.pages.freedesktop.org/bidi/)
-
-### Installation
-
-`cargo install termfactor`
-
-### Building
-
-`git clone https://github.com/urrickhunt/termfactor`
-
-`cargo build --release`
-
-`cargo install --path .`
-
 
 ### Track termfactors
 
