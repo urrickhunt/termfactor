@@ -36,7 +36,7 @@ termfactor tests your terminal for:
 - [osc 777 notifications](https://chromium.googlesource.com/apps/libapps/+/a5fb83c190aa9d74f4a9bca233dac6be2664e9e9/hterm/doc/ControlSequences.md#OSC)
 - [sixel graphics](https://www.arewesixelyet.com/)
 
-please note that this is just a general test for bidirectional awareness & not a comprehensive bidi language test.
+please note that this is just a general test for bidirectional awareness & not a comprehensive bidi language test.<br>
 further bidi terminal resources:
 
 - [BiDiSupport](https://gist.github.com/XVilka/a0e49e1c65370ba11c17)
