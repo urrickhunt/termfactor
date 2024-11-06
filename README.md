@@ -8,6 +8,20 @@ test your terminal features & find out.
 
 [fastfetch](https://github.com/fastfetch-cli/fastfetch) must be installed. termfactor uses [fastfetch](https://github.com/fastfetch-cli/fastfetch) for terminal identification.
 
+### Tests
+
+termfactor tests your terminal for 
+
+- `truecolor`
+- `sgr or text decorations`
+- `unicode`
+- `emojis`
+- `bidi awareness`
+- `osc 8 hyperlinks`
+- `osc 9 notifications`
+- `osc 777 notifications`
+- `sixel graphics`
+
 
 
 
