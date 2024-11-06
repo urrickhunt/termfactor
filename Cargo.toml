@@ -1,0 +1,23 @@
+[package]
+name = "termfactor"
+version = "0.6.9"
+edition = "2021"
+authors = ["urrick hunt"]
+description = "is your terminal sick, mid or sus? test terminal features & find out."
+license = "MIT"
+repository = "https://github.com/urrickhunt/termfactor"
+keywords = ["truecolor", "sgr", "unicode", "emoji", "bidi", "hyperlinks", "notifications", "sixel", "terminal"]
+
+[[bin]]
+name = "termfactor"
+path = "src/termfactor.rs"
+
+[dependencies]
+regex = "1.*"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3.*", features = ["consoleapi", "wincon", "winbase", "processenv", "fileapi", "handleapi", "winuser"] }
+
+[target.'cfg(unix)'.dependencies]
+nix = "0.25.*"
+
