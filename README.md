@@ -28,7 +28,7 @@ termfactor tests your terminal for:
 
 - [truecolor](https://github.com/termstandard/colors)
 - [sgr or text decorations](https://en.wikipedia.org/wiki/ANSI_escape_code#Select_Graphic_Rendition_parameters)
-- unicode
+- [unicode symbols](https://en.wikipedia.org/wiki/Unicode_symbol)
 - emojis
 - bidi awareness
 - [osc 8 hyperlinks](https://github.com/Alhadis/OSC8-Adoption/)
