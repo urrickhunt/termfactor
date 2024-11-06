@@ -45,4 +45,4 @@ further bidi terminal resources:
 
 ### Track termfactors
 
-![term](https://github.com/user-attachments/assets/804f0213-4659-43d0-84c4-1e6d5938c779)
+<img width="930" alt="terms3" src="https://github.com/user-attachments/assets/c826255a-32af-4c98-a8b9-d9ddb5cf4178">
