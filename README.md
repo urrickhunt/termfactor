@@ -23,6 +23,7 @@ termfactor tests your terminal for
 - `sixel graphics`
 
 please note that this is just a general test for bidirectional awareness & not a comprehensive bidi language test.
+
 [BiDiSupport](https://gist.github.com/XVilka/a0e49e1c65370ba11c17)
 
 [BiDi in Terminal Emulators](https://terminal-wg.pages.freedesktop.org/bidi/)
