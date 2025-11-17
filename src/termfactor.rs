@@ -36,7 +36,7 @@ if ! command -v fastfetch &> /dev/null; then
     exit 1
 fi
 
-ff_output=$(fastfetch --load-config none --logo none)
+ff_output=$(fastfetch --config none --logo none)
 os_info=$(echo "$ff_output" | grep -i "OS:" | awk -F ': ' '{print $2}')
 shell_info=$(basename "$SHELL")" "$($SHELL --version 2>&1 | grep -oE '[0-9]+\.[0-9]+(\.[0-9]+)?' | head -n 1)
 terminal_font_info=$(echo "$ff_output" | grep -i "Terminal Font:" | awk -F ': ' '{print $2}')
@@ -512,7 +512,7 @@ fn run_command(command: &str) -> String {
 }
 
 fn get_system_info() -> (String, String, String, String) {
-    let ff_output = run_command("fastfetch --load-config none --logo none");
+    let ff_output = run_command("fastfetch --config none --logo none");
 
     let mut os_info = String::new();
     let shell_info;
