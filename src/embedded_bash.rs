@@ -58,8 +58,6 @@ reset_format() {
 
 confirm_prompt() {
     local prompt_message="$1"
-    local discard=""
-    local escape_suffix=""
     local escape_read_timeout=1
     local escape_drain_timeout=1
     local reset=$'\033[0m'
@@ -90,8 +88,8 @@ confirm_prompt() {
         fi
 
         if [[ $confirm == $'\033' ]]; then
-            if read -r -t "$escape_read_timeout" -n 1 -s escape_suffix; then
-                while read -r -t "$escape_drain_timeout" -n 1 -s discard; do :; done
+            if read -r -t "$escape_read_timeout" -n 1 -s; then
+                while read -r -t "$escape_drain_timeout" -n 1 -s; do :; done
                 continue
             fi
 
@@ -120,9 +118,9 @@ const GRADIENT_SCRIPT: &str = r#"for ((colnum = 0; colnum < 77; colnum++)); do
     fi
 
     if (( colnum % 2 == 0 )); then
-        symbol='/'
+        symbol="/"
     else
-        symbol='\'
+        symbol="\\"
     fi
 
     printf '\033[48;2;%s;%s;%sm\033[38;2;%s;%s;%sm%s' \
@@ -267,12 +265,18 @@ fn append_display_indented(script: &mut String, display: Display, indent: &str) 
 }
 
 fn bash_quote(text: &str) -> String {
-    let mut quoted = String::from('\'');
+    let mut quoted = String::from("$'");
     for character in text.chars() {
-        if character == '\'' {
-            quoted.push_str("'\\''");
-        } else {
-            quoted.push(character);
+        match character {
+            '\x07' => quoted.push_str("\\a"),
+            '\x1b' => quoted.push_str("\\033"),
+            '\n' => quoted.push_str("\\n"),
+            '\'' => quoted.push_str("\\'"),
+            '\\' => quoted.push_str("\\\\"),
+            character if character.is_control() => {
+                write!(quoted, "\\x{:02x}", u32::from(character)).unwrap();
+            }
+            character => quoted.push(character),
         }
     }
     quoted.push('\'');
@@ -381,7 +385,7 @@ mod tests {
         let script = render();
 
         assert!(script.contains("escape_read_timeout=1"));
-        assert!(script.contains("read -r -t \"$escape_read_timeout\" -n 1 -s escape_suffix"));
+        assert!(script.contains("if read -r -t \"$escape_read_timeout\" -n 1 -s; then"));
         assert!(!script.contains("read -r -t 0.05"));
     }
 
