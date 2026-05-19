@@ -32,7 +32,7 @@ All notable changes to `termfactor` will be documented in this file.
 - Fixed embedded bash confirmation handling for `Esc`, `Ctrl+C`, and `Ctrl+D` so quit behavior matches the Rust path more closely.
 - Fixed embedded bash reset handling so confirmation responses emit real ANSI resets instead of literal escape text.
 - Fixed embedded bash fastfetch parsing to preserve additional `:` content in terminal and OS strings and keep field matching case-insensitive like the Rust path.
-- Fixed generated bash output so `shellcheck` no longer sees an unused `VERSION` assignment.
+- Fixed generated bash output so `shellcheck` stays clean across unused generated variables and shell-quoted terminal payloads.
 - Fixed leaderboard replacement writes to use a temp file plus rename, and hardened temp-file naming against concurrent write collisions.
 - Fixed configured shell detection so `COMSPEC` is only considered on Windows, and fixed the legacy spacing parser to accept rows whose terminal padding ends exactly at the old width boundary.
 - Fixed Windows save-path selection to prefer `LOCALAPPDATA` over roaming `APPDATA`, and made tab-separated leaderboard parsing tolerate a single trailing separator while still rejecting malformed extra fields.
